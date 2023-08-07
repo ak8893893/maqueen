@@ -8,7 +8,6 @@ IR.IR_callbackUser(function (message) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 150)
         maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
         maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
-        music.play(music.stringPlayable("C5 B A G F E D C ", 120), music.PlaybackMode.UntilDone)
     }
     if (message == 20) {
         maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
